@@ -1,5 +1,7 @@
 # Detección de anomalías en procesos industriales mediante Big Data
-# Caso Tennessee Eastman Process – Entrega final
+
+Caso Tennessee Eastman Process – Entrega final
+
 Karol Yamile Palomino Prada – 2243579
 
 Pedro Isaac Estupiñan Rodriguez – 2243574
