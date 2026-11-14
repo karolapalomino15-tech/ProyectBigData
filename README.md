@@ -1,2 +1,2 @@
-# ProyectBigData
-Deteccion de anomalias en procesos industriales mediante Big Data
+# Detección de anomalías en procesos industriales mediante Big Data
+Caso Tennessee Eastman Process – Entrega final
