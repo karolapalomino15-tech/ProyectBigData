@@ -1,3 +1,0 @@
-modelo,recall (fallas detectadas),falsas alarmas (normales con alarma),precision,F1,exactitud balanceada
-"PCA (T2/SPE, K=5 pasos)",0.702,0.0,1.0,0.825,0.851
-Isolation Forest (ventana),0.804,0.07,0.997,0.89,0.867
