@@ -1,0 +1,29 @@
+{
+  "alarmas": [
+    {
+      "microlote": 0,
+      "sample_id": 740,
+      "clase": 1,
+      "paso_alarma": 6
+    },
+    {
+      "microlote": 0,
+      "sample_id": 1747,
+      "clase": 6,
+      "paso_alarma": 4
+    },
+    {
+      "microlote": 0,
+      "sample_id": 2611,
+      "clase": 4,
+      "paso_alarma": 5
+    }
+  ],
+  "sin_alarma": [
+    {
+      "sample_id": 2620,
+      "clase": 0
+    }
+  ],
+  "pasos_por_microlote": 50
+}
