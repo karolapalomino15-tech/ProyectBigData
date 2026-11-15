@@ -1,0 +1,6 @@
+pyspark==4.3.0
+pyarrow
+numpy
+pandas>=2.2,<3
+scikit-learn
+matplotlib

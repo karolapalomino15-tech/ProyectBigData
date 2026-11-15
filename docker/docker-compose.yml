@@ -1,0 +1,19 @@
+# Uso:  docker compose build
+#       docker compose run --rm pipeline          # pipeline completo (01 a 05)
+#       docker compose run --rm streaming         # solo la simulación de streaming (requiere haber corrido el pipeline)
+# Antes: colocar TEPDataset_Mode1.pickle en ./data/landing/
+services:
+  pipeline:
+    build: .
+    image: tep-bigdata
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+    command: ["bash", "run_all.sh"]
+  streaming:
+    image: tep-bigdata
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+    command: ["python", "src/05_streaming_simulado.py"]
+    profiles: ["demo"]
